@@ -91,22 +91,17 @@ main h1 {
 .btn:hover {
   background-color: rgb(241, 155, 56);
 }
-
-@media (max-width: 768px) {
-  #latest-product ul {
-    grid-template-columns: 100%;
-  }
-
-  main h1 {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 480px) {
-  main h1 {
-    font-size: 1.5rem;
-  }
+/* 48rem = 768px/16px */
+@media (max-width: 48rem) {
   #main-header nav {
     display: none;
+  }
+
+  main h1 {
+    font-size: 1.5rem;
+  }
+
+  #latest-product ul {
+    grid-template-columns: 100%;
   }
 }
