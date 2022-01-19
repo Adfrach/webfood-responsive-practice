@@ -24,6 +24,21 @@ a {
   text-transform: uppercase;
 }
 
+.menu-btn {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.menu-btn span {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
 #main-header ul {
   list-style: none;
   display: flex;
